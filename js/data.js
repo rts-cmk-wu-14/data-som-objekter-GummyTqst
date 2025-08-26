@@ -1,4 +1,3 @@
-
 let hero = {
     image: "https://dazzling-squirrel-77a63d.netlify.app/imgs/hero.png",
     headline: "Find out how we can save your time in Backpacking in Europe",
@@ -94,5 +93,48 @@ let advantages = [
         text: "You don’t have to find out later or only after camenierk and trarsparent Easyamper ratains pliacas and beautias of your tariaary and halpin a fixed commission on each transaction of 5"
     },
 ]
+
+let footer = {
+    brand: {
+        title: "Easy Camper",
+        tagline: "When Passion Meets Comfort."
+    },
+    columns: [
+        {
+            headline: "Discover the Network",
+            links: [
+                { text: "Where to shop", url: "#" },
+                { text: "Tour Guided", url: "#" },
+                { text: "Our Tours", url: "#" },
+                { text: "About Us", url: "#" }
+            ]
+        },
+        {
+            headline: "Become a Manager",
+            links: [
+                { text: "Join your Pairing", url: "#" },
+                { text: "Offer your Service", url: "#" },
+                { text: "Are you a guide?", url: "#" }
+            ]
+        },
+        {
+            headline: "Assistance",
+            links: [
+                { text: "Support Center", url: "#" },
+                { text: "FAQs", url: "#" },
+                { text: "Cancellation Options", url: "#" },
+                { text: "Reliability and Security", url: "#" }
+            ]
+        }
+    ],
+    bottomLinks: [
+        { text: "About", url: "#" },
+        { text: "Site Map", url: "#" },
+        { text: "Terms", url: "#" },
+        { text: "Privacy Policy", url: "#" },
+        { text: "Teams", url: "#" }
+    ],
+    copyright: "EazyCamper. All rights reserved."
+}
 
 // Opret dit dataobjekt til footerens indhold herunder
