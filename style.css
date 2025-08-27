@@ -227,3 +227,71 @@ button {
 .advantage-item p {
     color: #808080;
 }
+
+/* Footer */
+.footer {
+    background: #F7F7F7;
+    padding: 4rem 2rem;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    border-bottom: 1px solid #D2D2D2;
+    padding-bottom: 2rem;
+    flex-wrap: wrap;
+}
+
+.footer-brand h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer-brand p {
+    font-size: 32px;
+    font-weight: bold;
+    max-width: 300px;
+    padding-right: 6rem;
+}
+
+.footer-columns {
+    display: flex;
+    gap: 4rem;
+    flex-wrap: wrap;
+}
+
+.footer-column h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 1rem;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #808080;
+    font-size: 16px;
+}
+
+.footer-bottom {
+    display: flex;
+    margin: 2rem auto 0;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    color: #000;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
