@@ -14,6 +14,12 @@ heroSection.innerHTML = `
   </div>
 `;
 
+const heroHeading = heroSection.querySelector("h1");
+heroHeading.innerHTML = heroHeading.textContent.replace(
+    /save your time/i,
+    `<span class="highlight">save your time</span>`
+)
+
 
 // SERVICES SECTION
 const servicesSection = document.querySelector(".services");
@@ -49,20 +55,23 @@ facilitiesSection.innerHTML = `
 // SITES SECTION
 const sitesSection = document.querySelector(".sites");
 sitesSection.innerHTML = `
-    <h2>${sites.headline}</h2>
-    <p>${sites.text}</p>
+    <div class="sites-intro">
+        <h2>${sites.headline}</h2>
+        <p>${sites.text}</p>
+        <button>
+            <img src="${sites.btnicon}" alt="Arrow Icon">
+        </button>
+    </div>
     <div class="sites-list">
         ${sites.places.map(place => `
             <div class="site-item">
                 <img src="${place.img}" alt="${place.name}">
                 <h3>${place.name}</h3>
                 <p>${place.city}</p>
+                <a href="#">View the Site</a>
             </div>
         `).join("")}
     </div>
-    <button>
-        <img src="${sites.btnicon}" alt="Arrow Icon">
-    </button>
 `;
 
 // ADVANTAGES SECTION

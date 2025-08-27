@@ -16,7 +16,8 @@ button {
 }
 
 .services-list,
-.facilities {
+.facilities,
+.sites {
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
@@ -63,6 +64,10 @@ button {
     margin-bottom: 1rem;
 }
 
+.highlight {
+    color: #F78065;
+}
+
 .hero-text p {
     font-size: 20px;
     margin-bottom: 2rem;
@@ -104,7 +109,10 @@ button {
     font-weight: bold;
 }
   
-
+/* facilities */
+.facilities {
+    margin-bottom: 10rem;
+}
 
 .facilities-options {
     padding: 4rem 2rem;
@@ -127,6 +135,46 @@ button {
 }
 
 .facility-item a {
+    text-decoration: none;
+    color: #F78065;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/* Sites */
+.sites {
+    display: flex;
+}
+
+.sites-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 4rem 2rem;
+    width: 100%;
+    padding-top: 0;
+}
+
+.site-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.site-item h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+}
+
+.site-item p {
+    color: #808080;
+    margin-bottom: 0.25rem;
+}
+
+.site-item a {
     text-decoration: none;
     color: #F78065;
     font-size: 18px;
