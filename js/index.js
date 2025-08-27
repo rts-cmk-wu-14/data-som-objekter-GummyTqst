@@ -6,7 +6,10 @@ heroSection.innerHTML = `
     <div class="hero-text">
       <h1>${hero.headline}</h1>
       <p>${hero.copy}</p>
-      <button class="hero-btn">Explore</button>
+      <button class="hero-btn">
+        <img src="${hero.icon}" alt="Globe Icon">
+        Explore
+      </button>
     </div>
   </div>
 `;
@@ -15,7 +18,6 @@ heroSection.innerHTML = `
 // SERVICES SECTION
 const servicesSection = document.querySelector(".services");
 servicesSection.innerHTML = `
-    <h2>Our Services</h2>
     <div class="services-list">
         ${services.map(service => `
             <div class="service-item">
@@ -38,6 +40,7 @@ facilitiesSection.innerHTML = `
                 <img src="${option.icon}" alt="${option.headline}">
                 <h3>${option.headline}</h3>
                 <p>${option.text}</p>
+                <a href="#">Show me more</a>
             </div>
         `).join("")}
     </div>

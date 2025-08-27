@@ -4,6 +4,26 @@
     padding: 0;
 }
 
+button {
+    width: 250px;
+    height: 65px;
+    border: none;
+    outline: none;
+    background: #F78065;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.services-list,
+.facilities {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* Hero */
+
 .hero-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -13,6 +33,14 @@
     background: url("https://dazzling-squirrel-77a63d.netlify.app/imgs/hero.png") no-repeat center center;
     background-size: cover;
     overflow: visible;
+    width: 100%;
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
 }
   
 .hero-text {
@@ -24,6 +52,83 @@
     height: 537px;
     box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     position: relative;
-    margin-bottom: -2rem;
+    margin-bottom: -10rem;
+    padding: 6rem;
+    padding-right: 13rem
+}
+
+.hero-text h1 {
+    font-size: 39px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.hero-text p {
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+/* Servies */
+.services {
+    margin-top: 14rem;
+}
+
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 4rem 2rem;
+    width: 100%;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.service-item h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.service-item p {
+    color: #808080;
+}
+
+.service-item a {
+    text-decoration: none;
+    color: #F78065;
+    font-size: 18px;
+    font-weight: bold;
 }
   
+
+
+.facilities-options {
+    padding: 4rem 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.facility-item h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+}
+
+.facility-item p {
+    color: #808080;
+    margin-bottom: 1.5rem;
+}
+
+.facility-item a {
+    text-decoration: none;
+    color: #F78065;
+    font-size: 18px;
+    font-weight: bold;
+}
