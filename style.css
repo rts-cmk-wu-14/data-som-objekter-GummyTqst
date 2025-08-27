@@ -17,7 +17,8 @@ button {
 
 .services-list,
 .facilities,
-.sites {
+.sites,
+.advantages {
     max-width: 1200px;
     margin: 0 auto;
     width: 100%;
@@ -199,4 +200,30 @@ button {
     color: #F78065;
     font-size: 18px;
     font-weight: bold;
+}
+
+/* Advantages */
+.advantages-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    padding: 4rem 2rem;
+    width: 100%;
+    padding-left: 0;
+}
+
+.advantage-item {
+    padding: 2rem;
+    padding-left: 0;
+}
+
+.advantage-item h3 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+}
+
+.advantage-item p {
+    color: #808080;
 }
