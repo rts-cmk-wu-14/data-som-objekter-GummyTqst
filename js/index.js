@@ -58,8 +58,9 @@ sitesSection.innerHTML = `
     <div class="sites-intro">
         <h2>${sites.headline}</h2>
         <p>${sites.text}</p>
-        <button>
+        <button class="sites-btn">
             <img src="${sites.btnicon}" alt="Arrow Icon">
+            Start
         </button>
     </div>
     <div class="sites-list">

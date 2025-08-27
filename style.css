@@ -147,6 +147,26 @@ button {
     display: flex;
 }
 
+.sites-btn {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.sites-intro h2 {
+    font-size: 36px;
+    padding-right: 4rem;
+    margin-bottom: 2rem;
+}
+
+.sites-intro p {
+    color: #808080;
+    margin-top: 1rem;
+    padding-right: 10rem;
+    margin-bottom: 4rem;
+}
+
 .sites-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
